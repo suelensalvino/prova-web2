@@ -15,7 +15,7 @@ const showEditModal = ref(false);
 const song = ref('');
 
 const props = defineProps({
-    playlist: {
+    playlists: {
         type: Object,
         required: true,
     },
